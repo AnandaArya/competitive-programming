@@ -1,0 +1,13 @@
+Program  Hello World
+{program untuk menghitung soal matematika 02}
+kamus 
+  x : real
+  hasil : real
+
+algoritma
+  output("Masukan nilai x :  ")
+  input(x)
+  hasil <- ((x * x * x) + 3*x) / ((x * x * x * x) - 3*(x*x) + 4)
+  output("Hasil nilainya adalah : ", hasil)
+endprogram
+

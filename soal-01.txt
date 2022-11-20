@@ -1,0 +1,14 @@
+Program  Hello World
+{program untuk menghitung soal matematika 01}
+kamus 
+  x : real
+  y : real
+  hasil : real
+
+algoritma
+  output("Masukan nilai x, y :")
+  input(x,y)
+  hasil <- 1/(3*(x*x)+10) + 10*y + 7
+  output("Hasil nilainya adalah : ", hasil)
+endprogram
+
